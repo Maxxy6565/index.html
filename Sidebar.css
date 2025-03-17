@@ -1,0 +1,107 @@
+/* Sidebar Container */
+.sidebar-container {    
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    width: 250px;
+    height: 100vh;
+    background-color: #1a202c; /* Dark gray background */
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .sidebar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar-header p {
+    font-size: 14px;
+    color: #cbd5e0; /* Light gray for the paragraph */
+  }
+  
+  /* Sidebar Menu */
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Sidebar Section */
+  .sidebar-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styling */
+  .sidebar-section label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+
+  .sidebar-section  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .sidebar-link{
+    text-decoration: none;
+    color: white;
+    
+  }
+
+  .sidebar-section a:hover{
+    cursor: pointer;
+    color: #cbd5e0;
+  }
+  
+  /* Select Box Styling */
+  .sidebar-list {
+    width: 100%;
+    padding: 8px;
+    background-color: #2d3748; /* Slightly lighter gray */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    list-style: none;
+  }
+
+  .sidebar-list a {
+    text-decoration: none;
+    color: white;
+  }  
+
+  .sidebar-list a:hover{
+    cursor: pointer;
+    color: #cbd5e0;
+
+  }
+  .submenu{
+    margin: 3px;
+    padding: 2px;
+  }
+  .submenu-link{
+    text-decoration: none;
+    color:#007C77;
+  }    
+  
+  /* Focused Select Box */
+  .sidebar-select:focus {
+    outline: 2px solid #3182ce; /* Blue outline when focused */
+  }
+  
+  /* Hover on Options */
+  .sidebar-select option:hover {
+    background-color: #4a5568; /* Darker background on hover */
+  }
+  

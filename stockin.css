@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.stock-in-container {
+    height: 60vh;
+    width: 500px;
+}
+
+.title {
+    height: 20px;
+    font-size: 24px;
+    padding: 5px 8px 5px 8px;
+}
+
+.title h2 {
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    bottom: 120px;
+    right: 115px;
+    color: #100B00;
+}
+
+hr {
+    position: relative;
+    bottom: 120px;
+    right: 105px;
+    margin: 2px;
+    width: 900px;
+    font-weight: 500;
+}
+
+.stn-content {
+    position: relative;
+    bottom: 60px;
+    line-height: 2;
+    height: 155px;
+    background-color: #DEE2D6;
+    padding: 15px 10px 15px 10px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.st-para {
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    bottom: 70px;
+    height: 40px;
+    background-color: #90AA86;
+    padding: 12px 9px 12px 9px;
+}
+
+.stn-button {
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    bottom: 115px;
+    left: 395px;
+    padding: 8px;
+    margin: 5px;
+    width: 20%;
+    background-color: #000010;
+    color: #FFF;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}

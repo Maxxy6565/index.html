@@ -1,0 +1,69 @@
+.shopping-list-containerr{
+    height: 60vh;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.nav-head{
+    height: 20px;
+    padding: 5px 8px 5px 8px;
+}
+.nav-head h1{
+    font-size: 1.9rem;
+    position: relative;
+    bottom: 180px;
+    left: 50px;
+    color: #000010;
+}
+.nav-head hr{
+    position: relative;
+    bottom: 170px;
+    left: 55px;
+    margin: 2px;
+    width: 900px;
+}
+
+.shopping-list-container .shopping-para{
+    position: relative;
+    padding: 13px;
+    bottom: 130px;
+    left: 65px;
+    height: 50px;
+}
+
+ .shopping-list-container .register-button-sh{
+    position: relative;
+    bottom: 178px;
+    left: 86%;
+    background-color: #000010;
+    color: #FFF;
+    padding: 8px;
+    margin: 5px;
+    width: 20%;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius:8px;
+}
+
+.shopping-list-container .shp-contain{
+    position: relative;
+    bottom: 150px;
+    left: 55px;
+    padding: 10px 15px 10px 15px;
+}
+
+.register-button-shp{
+    position: relative;
+    bottom: 135px;
+    left: 50px;
+    background-color: #000010;
+    color: #FFF;
+    padding: 8px;
+    margin: 5px;
+    width: 20%;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px ;
+    border-bottom-right-radius:8px;
+}
